@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+/* Azul #085E49. Azul #08445E. Azul #08155E. Violeta #2A085E */
+
+body {
+    background-color: black;
+}
+
+.img-logo {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-logo:hover {
+    transform: scale(1.05);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: #e0e0f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0.8;
+
+}
+
+li:hover {
+    color: #fff;
+    opacity: 1;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 90px;
+    color: #fff;
+    font-size: 45px;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 80px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 440px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1d1d2e;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    opacity: 0.95;
+}
+
+.coments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.coment {
+    font-size: 17px;
+}
+
+.banner1 {
+    background-image: url('https://pbs.twimg.com/media/DsfX_bPXgAUxZAO.jpg');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner2 {
+    background-image: url('https://i.pinimg.com/originals/e3/c7/81/e3c7812dfd5fe6bb0f11e583b4a75f75.jpg');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+
+    background-size: cover;
+}
+
+.banner3 {
+    background-image: url('https://www.portaldoholanda.com.br/sites/default/files/imagecache/2020_noticia_fotogrande/portaldoholanda-841595-imagem-foto-1amazonas.jpg');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner4 {
+    background-image: url('https://aventurasnahistoria.uol.com.br/media/_versions/entretenimento/chaves_chiquinha_1_widemd.jpg');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner5 {
+    background-image: url('https://i.pinimg.com/originals/ba/7b/07/ba7b072f19ff0be4dc3574a300063b30.jpg');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner6 {
+    background-image: url('https://www.otempo.com.br/content/dam/otempo/editorias/entretenimento/2023/6/entretenimento-senhor-barriga-1708771381.png');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner7 {
+    background-image: url('https://www.guacamolemex.com.br/uploads/imagens/post/chapolin-um-heroi-mexicano-ou-um-inseto21022017460971.jpg');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner8 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6sWLyF-H2h4s0R15-jJx5UmsOjDChjWaZQU3GfABUH18skG0AMeJLcy1qxr3b_3LZ2ES3GyLkhMXxDJ4icW7QytXlL5ODHwMccJ-diu4eC21_Q9rA4yfyHZdl68_VefaZZ76-SiWuOazo8Bw64c0dxocg-wu5TXHg1CVnmymf39pW1DZvJyZPwV3-yA/s577/EawVv5jWsAc0NKt.png');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner9 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf5r1QwCb59C7Fm2QqqxEp9FB9bdj7OAZiWRtlJiwgWg&s');
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+
+    background-size: cover;
+}
+
+#logo-foot {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-logo {
+        width: 120px;
+    }
+
+    .cards-content {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+    }
+
+    .footer-nav {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    span {
+        text-align: center;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .name {
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    .coment {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .img-logo {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+    
+    .cards-content {
+        grid-template-columns: 1fr;
+        width: 80%;
+        row-gap: 30px;
+    }
+
+    .name {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    span {
+        font-size: 12px;
+
+    }
+
+    li {
+        font-size: 14px;
+    }  
+}
+
+@media (max-width: 360px) {
+    
+    h1 {
+        font-size: 21px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+}

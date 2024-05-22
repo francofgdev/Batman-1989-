@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+/* Azul #085E49. Azul #08445E. Azul #08155E. Violeta #2A085E */
+
+body {
+    background-color: black;
+}
+
+.img-logo {
+    width: 90px;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-logo:hover {
+    transform: scale(1.05);
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: #e0e0f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.8;
+    
+}
+
+li:hover {
+   color: #fff;
+   opacity: 1;
+}
+
+#banner {
+    /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f0e2324d-90c6-4096-b768-aae565b0cb1a/dbhslp7-02d387fb-2a99-4bb3-bcce-10a62287d6f1.jpg/v1/fill/w_1024,h_576,q_75,strp/batman_1989_wallpaper_maade_by_me_by_shawnorton619_dbhslp7-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvZjBlMjMyNGQtOTBjNi00MDk2LWI3NjgtYWFlNTY1YjBjYjFhXC9kYmhzbHA3LTAyZDM4N2ZiLTJhOTktNGJiMy1iY2NlLTEwYTYyMjg3ZDZmMS5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.DSywGYeKd7JjfIM4eKlMNu5yGFUxHCcj7I2OUzseh4M'); */
+    /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7bbeca7d-c3e5-4d2a-b7a5-8d88ee4015f3/dfoh89d-111dc377-afbf-4a22-b08d-1e5b73e7ca9e.jpg/v1/fill/w_1187,h_673,q_70,strp/batman_franchise_wallpaper_1989_1997__by_nutbugs2211_dfoh89d-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc3IiwicGF0aCI6IlwvZlwvN2JiZWNhN2QtYzNlNS00ZDJhLWI3YTUtOGQ4OGVlNDAxNWYzXC9kZm9oODlkLTExMWRjMzc3LWFmYmYtNGEyMi1iMDhkLTFlNWI3M2U3Y2E5ZS5qcGciLCJ3aWR0aCI6Ijw9MTE5MyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KKWULag2OSaHf8LjiQpxEVB19xMO0m4ROI5dZn-K-ao'); */
+    background-position: 50% 50%;
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    height: auto; 
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #1d1d2e;
+    width:  470px;
+    opacity: 0.8;
+    margin-top: 50px;
+    
+}
+
+h2 {
+    color: #fff;
+    font-size: 32px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+input, textarea {
+    background-color: #e0e0f8;
+    color: black;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* ::placeholder {
+    color: black;
+    font-weight: bold;
+} */
+
+input:focus, textarea:focus {
+    background: white;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #e0e0f8;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;    
+}
+
+button:hover {
+    background-color: #e0e0f8;
+    color: black;
+}
+
+#logo-foot {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    height: 100px;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+
+@media (max-width: 1280px) {
+    #banner {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #banner {
+        height: 395px;
+    }
+
+    .form-content {
+        height: 95%;
+    }  
+
+    form {
+       height: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-logo {
+        width: 80px;
+    }
+
+    #banner {
+        background-image: none;
+        height: auto;
+    }
+
+    .form-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-top: 20px;       
+    }
+
+    .footer-nav {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    li {
+        font-size: 15px;
+        padding: 3px;
+    }
+
+    span {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-logo {
+        width: 50px;
+    }
+
+    .form-content {
+        width: 90%;          
+        margin: 0;
+        padding: 0;
+    }
+    
+    span {
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 13px;
+    } 
+}
+
+@media (max-width: 360px) {
+   
+
+}

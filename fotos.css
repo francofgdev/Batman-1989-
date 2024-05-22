@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;   
+}
+
+/* Azul #085E49. Azul #08445E. Azul #08155E. Violeta #2A085E */
+
+.img-logo {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-logo:hover {
+    transform: scale(1.08);
+}
+
+header {
+    height: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: #e0e0f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.8;
+
+}
+
+li:hover {
+    color: #fff;
+    opacity: 1;
+    font-size: 20px;
+}
+
+h1 {
+    color: #e0e0f8;
+    font-size: 72px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;    
+    color: #fff;
+    font-size: 17px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.banner1 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglph7PSzWkXfDw2VeAq4Bpfa5oPbSqZiOUS5zvLSqa5r_KOlEbJGPsBazUdW3GWMeZCqIW3qROzbgvTizCTKmM1udouQGc9k4OilOIQxlJVv5fqeRJRFJvYZxqMbc_OqPeVClhmypjIs_x/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_11.jpg');
+
+}
+
+.banner2 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinRxnhyphenhyphenDdcN5X9qM4qL4IdIaT_tteWQ1dvoUQNn60LUeGJtL5F1iuIm0tYAntEghOCHiqpP04RFyeESTfcb01AtX7FEgAkkH2TTIqY4hbu08b6EWYao9IfpWKKwz-BM_6un-Gn3047kE0O/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_4.jpg');
+
+}
+
+.banner3 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt_etew3jOpjEOgpwvpmvaF3jlmvokJFkL33VIpjJk24wRAv9tOacengU6wIsjwfJzd6cUPZxEQr9tCQDRmDRQvMHkMCyBI-vPRVF_jr6EeupCle41CTu62kky7588Mm2C2RvTEiupcNov/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_3.jpg');
+}
+
+.banner4 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0WrwV7ZDKYJ_X-HJ08OAoZF4MCDSAszahMSp_utOsU1T3e_TrxM4UeiZC1jBnkIHENM54HmvSNTD9_C8tDkRDVqDSYcgnihb_BdV4ZhoQWnFJYfsYA2pDwgAUoTIpn_6G7uf_EsMgm5CF/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_2.jpg');
+}
+
+.banner5 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxJLnsbquA9-pBmfmuR_zEBYqC4AWabR1WczAJmYkVC7aiybCR5Ncl_mrL0KSPKwUNhAP-3WVFgYDflgkxXUxDGLwaomC3RASTsQm_qw6uju_yRlsN7T_M91JUTEVr4IW6MeYhhRN7Sv6n/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_6.jpg');
+}
+
+.banner6 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTDsK2S2qGTjEM-bnii1z8Ye_6N6vq8n277fWtAS2AbvkISyMjp7zOYAVQH2nIZtlw_cgkMEZsE_ze0KcgOdrzZyMGcXiV-l8U0aJx-UtDJyBOpiytiVf4kW_dzC_zR6bIlN5UWx-NlIGQ/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_8.jpg');
+}
+
+.banner7 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf37-0Rak3Qut5KTIvL0RyHym0KN0o92AZ_Jx4hhXQ6-8DvXT4d3PYQdK1l9NmNklDW3kLd7_jActZv9tTM3jDUZX0_nOnUfK5-P3FJ-2Bb2m4OgU-B81fDVlDD-W2ZykMKCPRJ5SVbkCB/w1200-h630-p-k-no-nu/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_capa.jpg');
+
+}
+
+.banner8 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM-itEXFq9UV3rvoB8O57k38lUIMaBgvNd9KC6ipJACAKtgXh2OcY-bI5IFo2qXirzwzcIEQV8A89C5YChyphenhyphenU5Qrn-B_pAGu5JAT8Znr6c4CCZWKoL848DLIAeFuzPq7PnqCPS-zgVBJrCK/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_9.jpg');
+
+}
+
+.banner9 {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdohHeCjhN_pG2T2T9Bo_eihDd5YFPRjQs-ME4K6yx9raTx3s6mM58hHLnh6Pe6g4I9x-SALYHx3aDAAG0dq8oKhi8xxf00RJdmdgJKssMPsIT-ZLB_AGjbAooMdRab1FrYv4xW323mrb7/d/Confira-incr%25C3%25ADveis-imagens-de-bastidores-de-BATMAN-1989_10.jpg');
+
+}
+
+.banner10 {
+    background-image: url('https://desatinoexpresso.wordpress.com/wp-content/uploads/2015/05/batman-1-24.jpg');
+
+}
+
+#logo-foot {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Responsividade */
+
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 62px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+    }
+}    
+
+@media (max-width: 768px) {
+    .img-logo {
+        width: 120px;
+        margin: 20px 0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .footer-nav {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    span {
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    li {
+        font-size: 18px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-logo {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .cards-content {
+        row-gap: 30px;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 32px;
+        margin: auto;
+    }
+
+    li {
+        font-size: 14px;        
+    }
+}

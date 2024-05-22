@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+}
+
+/* Azul #085E49. Azul #08445E. Azul #08155E. Violeta #2A085E */
+
+body {
+    background-color: black;
+}
+
+.img-logo {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+}
+
+.img-logo:hover {
+    transform: scale(1.08);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: #e0e0f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0.8;
+}
+
+li:hover {
+    color: #fff;
+    opacity: 1;
+    font-size: 20px;
+}
+
+#banner {
+    background-image: url('https://www.bhmpics.com/downloads/batmobile-1989-Wallpapers/33.sydnie-ponic-batman-movie-by-jillgiovanni.jpg');
+    /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7bbeca7d-c3e5-4d2a-b7a5-8d88ee4015f3/dfoh89d-111dc377-afbf-4a22-b08d-1e5b73e7ca9e.jpg/v1/fill/w_1187,h_673,q_70,strp/batman_franchise_wallpaper_1989_1997__by_nutbugs2211_dfoh89d-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc3IiwicGF0aCI6IlwvZlwvN2JiZWNhN2QtYzNlNS00ZDJhLWI3YTUtOGQ4OGVlNDAxNWYzXC9kZm9oODlkLTExMWRjMzc3LWFmYmYtNGEyMi1iMDhkLTFlNWI3M2U3Y2E5ZS5qcGciLCJ3aWR0aCI6Ijw9MTE5MyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KKWULag2OSaHf8LjiQpxEVB19xMO0m4ROI5dZn-K-ao'); */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+}
+
+#trailer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.trailer {
+    width: 40%;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.sinopse {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.description {
+    width: 100%;
+    text-align: justify;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.button {
+    width: 280px;
+    height: 50px;
+    background-color: transparent;
+    color: #e0e0f8;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    font-weight: 600;
+    border: 1px solid #e0e0f8;
+}
+
+.button:hover {
+    background-color: #1d1d2e;
+    color: #e0e0f8;
+    font-weight: bold;
+    border: none;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* .banner1 {
+    background-image: url('https://media.fstatic.com/27C7O45WgUdQUgXUhkCzdmQpmi0=/322x478/smart/filters:format(webp)/media/movies/covers/2019/05/92b4a64312055fc4ade1e6254835d6bf.png');
+} */
+
+.banner2 {
+    background-image: url('https://cinemacomrapadura.com.br/imagens/2020/06/20200622-keaton-batman.jpg');
+}
+
+.banner3 {
+    background-image: url('https://i.pinimg.com/736x/de/80/31/de8031bd0bfa786a78a48418aa2a1b1b.jpg');
+}
+
+.banner4 {
+    background-image: url('https://44.media.tumblr.com/80f77c183ebf6a54078485cbadde8240/tumblr_puoyuxMeSU1uorz8zo3_540.gif');
+}
+
+.banner5 {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BMTRiOGU4OGEtYjcxNi00YmU5LTg2ZmYtNDc0ZThhY2MwNWVlXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_.jpg');
+}
+
+.banner6 {
+    background-image: url('https://screenmusings.org/movie/dvd/Batman/images/Batman-1989-0091.jpg');
+}
+
+.banner7 {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/169405b8-9b86-4d5f-bd58-4505c022d930/dfn5gpq-c32d4512-8a7d-4b69-86f7-41707a12c4bc.jpg/v1/fill/w_894,h_894,q_70,strp/billy_dee_williams_as_two_face_by_dcm560_by_tytorthebarbarian_dfn5gpq-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcLzE2OTQwNWI4LTliODYtNGQ1Zi1iZDU4LTQ1MDVjMDIyZDkzMFwvZGZuNWdwcS1jMzJkNDUxMi04YTdkLTRiNjktODZmNy00MTcwN2ExMmM0YmMuanBnIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.zxazkPwDFDcL2C3t8U0JpLVf7JGUvq9jmMvEwcqDm4w');
+}
+
+#logo-foot {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.footer-nav {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Responsive 
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs 
+
+320px x 640px - 480px: dispositivos móveis
+1024px x 768px: iPads, tablets
+1366px x 768px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1920px x 1080px e acima —  telas muito grandes, TVs
+
+*/
+
+@media (max-width: 1024px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .trailer {
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    .sinopse {
+        width: 80%;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 22px;
+        margin-left: 30px;
+    }
+
+    .button {
+        width: 500px;
+    }
+
+    .cards-content {
+        row-gap: 30px;
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-logo {
+        width: 80px;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    .description {
+        width: 120%;      
+    }
+
+    .button {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 1em;
+    }
+
+    .cards-content {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+    }
+
+    .footer-nav {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    span {
+        text-align: center;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    li {
+        font-size: 18px;
+        padding: 5px;   
+    }
+}
+
+@media (max-width: 480px) {
+    #banner {
+        height: 350px;
+    }
+
+    .trailer {
+        width: 115%;   
+    }
+
+    .sinopse {
+        width: 80%;
+    }
+
+    .description {
+        font-size: 21px;
+    }
+
+    .button {
+        width: 120%;
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+
+    .img-logo {
+        width: 120px;
+    }
+    span {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    #banner {
+        height: 300px;
+    }
+
+    .trailer {
+        width: 120%;
+    }
+
+    .description {
+        font-size: 17px;
+        width: 130%;
+       
+    }
+
+    .button {
+        width: 150%;
+    }
+
+    .card {
+        height: 450px;
+    }
+
+}
+
+
+/* Benefícios de um site responsivo:
+Melhora o SEO
+Ter um site mobile-friendly é um dos principais fatores de rankeamento do Google. 
+Afinal, o buscador sabe a importância de melhorar a usabilidade em dispositivos móveis.
+Além disso, o Google identifica os sinais da experiência do usuário no site — taxa de rejeição, 
+tempo de permanência na página, cliques e interações, entre outros indicadores. 
+Se esses sinais são positivos, como deve acontecer em um site responsivo, 
+as páginas tendem a melhorar o SEO e ganhar posições no Google.
+
+Layout fluido
+Layout fluido é a capacidade de adaptação dos grids para os diferentes tamanhos de tela. Os grids, por sua vez, são o conjunto de linhas e colunas de base que definem a estrutura do layout e ajudam a escolher a melhor localização dos elementos.
+
+Para que os grids sejam flexíveis, é preciso definir medidas relativas para eles no CSS, 
+geralmente em porcentagem, em vez de pixels ou pontos, que são fixos. Dessa forma, 
+as linhas e colunas se reorganizam automaticamente à medida que o tamanho de tela 
+aumenta ou diminui. Isso cria um design consistente em diferentes dispositivos.
+
+Vamos ver agora alguns breakpoints comuns em termos de larguras dos dispositivos:
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs 
+
+Tamanhos em polegadas e as resoluções base das telas dos iPhones:
+6.7": 428x926 (3x)
+6.5": 414x896 (3x)
+6.1": 390x844 (3x)
+5.8": 375x812 (3x)
+5.5": 414x736 (3x)
+5.4": 360x780 (3x)
+4.7": 375x667 (2x)
+4": 320x568 (2x)
+3.5": 320x480 (2x)
+
+Tamanhos mais comuns e as resoluções base dos celulares Android:
+6.4": 360x640 (2x)
+5.8": 360x640 (3x)
+5.5": 360x640 (4x)
+5": 360x720 (4x)
+4.7": 360x760 (4x)
+
+Tamanhos e resoluções base dos iPads:
+12.9": 1366x1024 (2x)
+11": 1194x834 (2x)
+10.5": 1112x834 (2x)
+9.7": 1024x768 (2x)
+7.9": 1024x768 (2x)
+
+Tablets:
+12": 1280x720 (2x)
+11": 1280x800 (2x)
+8": 960x600 (2x)
+
+Monitores e notes:
+Monitor: 1366x768 (16:9) "My Notebook"
+Monitor grande: 1920x1080 (16:9)
+Monitor gigante: 2560x1440 (16:9)
+Monitor 4K: 3840x2160 (16:9)
+Ultra-wide: 2560x1080 (21:9)
+
+Notebook: 1280x800 (16:10)
+MacBook Pro: 1440x960 (16:10)
+Notebook grande: 1920x1080 (16:9)
+*/
+
+
+/* 
+
+Responsividade Ampla:
+
+@media (min-width: 1781px) {
+    #banner {
+        height: 850px;
+    }
+    .content {
+        
+    }
+    h1 {
+        
+    }
+    .card {
+        height: 800px;
+    }
+    .cards-content {
+        row-gap: 50px;
+        column-gap: 50px;  
+    }
+    .button {
+        width: 250px;
+    }
+ }   
+
+
+@media (min-width: 1367px) and (max-width: 1780px) {
+    #banner {
+        height: 650px;
+    }
+    .content {
+        
+    }
+    h1 {
+        
+    }
+    .card {
+        height: 700px;
+    } 
+    .button {
+        width: 250px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    #banner {
+        height: 490px;
+    }    
+    .trailer {
+        width: 50%;
+        margin-right: 50px;
+    }
+    .sinopse {
+        align-items: center;
+    }
+    .button {
+        width: 300px;
+    } 
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content {
+        flex-direction: column;    
+    }
+    .trailer {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 30px;
+        margin-left: 30px;   
+    }
+    .sinopse {
+        align-items: center;
+        width: 80%;
+        margin-left: 50px;
+    }
+    .button {
+        width: 100%;
+    }
+    .cards-content {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        row-gap: 70px;
+    }
+    .card {
+        height: 600px;
+
+    }
+    .img-logo {
+        width: 80px;
+    }
+
+    .footer-nav {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .card {
+        height: 700px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .card {
+        height: 800px;
+    }
+}
+
+@media (min-width:1366px) {
+    #banner {
+       
+        
+    }
+    .card {
+        height: 
+    }
+} 
+*/
