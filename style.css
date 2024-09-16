@@ -60,10 +60,11 @@ li:hover {
 }
 
 #banner {
-    background-image: url('https://www.bhmpics.com/downloads/batmobile-1989-Wallpapers/33.sydnie-ponic-batman-movie-by-jillgiovanni.jpg');
+    /* background-image: url('https://static1.srcdn.com/wordpress/wp-content/uploads/2022/04/Batman-1989-batmania-1.jpg'); */
+    background-image: url('https://cdn.mos.cms.futurecdn.net/MxFeeiQoDn8A8R8BfeXct5-1200-80.jpg');
     /* background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7bbeca7d-c3e5-4d2a-b7a5-8d88ee4015f3/dfoh89d-111dc377-afbf-4a22-b08d-1e5b73e7ca9e.jpg/v1/fill/w_1187,h_673,q_70,strp/batman_franchise_wallpaper_1989_1997__by_nutbugs2211_dfoh89d-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc3IiwicGF0aCI6IlwvZlwvN2JiZWNhN2QtYzNlNS00ZDJhLWI3YTUtOGQ4OGVlNDAxNWYzXC9kZm9oODlkLTExMWRjMzc3LWFmYmYtNGEyMi1iMDhkLTFlNWI3M2U3Y2E5ZS5qcGciLCJ3aWR0aCI6Ijw9MTE5MyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.KKWULag2OSaHf8LjiQpxEVB19xMO0m4ROI5dZn-K-ao'); */
-    /* background-size: contain;
-    background-repeat: no-repeat; */
+    /* background-size: contain; */
+    background-repeat: no-repeat; 
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
@@ -223,7 +224,7 @@ footer {
 }
 
 span {
-    color: white;
+    color: white;   
     text-align: center;
     font-size: 14px;
 
@@ -256,6 +257,10 @@ span {
 */
 
 @media (max-width: 1024px) {
+    #banner {
+        height: 400px;
+    }
+
     .content {
         display: flex;
         flex-direction: column;
